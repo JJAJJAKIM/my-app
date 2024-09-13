@@ -19,7 +19,7 @@ const Study02 = () => {
         <Routes>
           <Route path="/" element={<List />}></Route>
           <Route path="/create" element={<Create />}></Route>
-          <Route path="/detail/:id" element={<Detail />}></Route>
+          <Route path="/detail/:no" element={<Detail />}></Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
