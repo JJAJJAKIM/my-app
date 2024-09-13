@@ -12,7 +12,7 @@ nav {
     background-color: cadetblue;
 }
 
-nav a {
+nav a.link {
     width: 100px;
     text-align: center;
     text-decoration: none;
@@ -22,7 +22,7 @@ nav a {
     border-radius: 5px;
     background-color: bisque;
 }
-nav a:hover {
+nav a.link:hover {
     color: white;
     font-weight: bold;
 }
@@ -37,4 +37,5 @@ section.content {
 h1.body {
     text-align: center;
     margin: 0;
+    color: black;
 }

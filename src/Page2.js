@@ -1,0 +1,16 @@
+import { useLocation } from 'react-router-dom';
+const Page2 = () => {
+    const location = useLocation();
+    const params = location.search.substring(1);
+    const param = params.split("=");
+    return (
+        <section className="content" id="page2">
+        <h1 className="body">페이지2번 내용</h1>
+        <h3>{params}</h3>
+        <h4>KEY : {param[0]}</h4>
+        <h4>VALUE : {param[1]}</h4>
+        </section>
+    );
+}
+
+export default Page2;
